@@ -8,9 +8,9 @@ describe('CardImage', () => {
         const className = "class-name-card" 
         
         render(<CardImage src="img_src" className={className} data-testid="card-img-wrapper"/>)
-        const element = screen.getByTestId(testId)
+        const element = screen.getByTestId("card-img-wrapper")
         expect(element).toHaveClass(className)
-        expect(screen.getByTestId(testId)).toHaveClass("card-img")
+        expect(screen.getByTestId("card-img-wrapper")).toHaveClass("card-img")
     })
 
     it('should render img tag',() => {
