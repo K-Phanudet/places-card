@@ -1,0 +1,16 @@
+.card-img-with-plate.card-img-with-plate-wrapper {
+    background-color: #c8c8c8;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border-radius: 8px;  
+    
+    & .labeled-plate{
+        position: absolute;
+        transform: translateX(-50%);
+        color: white;
+        bottom: -15px;
+        width: 90%;
+        left: 50%;
+    }
+}

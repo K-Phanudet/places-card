@@ -1,0 +1,1 @@
+export * from "./card-img-with-plate/card-img-with-plate"

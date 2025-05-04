@@ -1,0 +1,10 @@
+.labeled-plate {
+    background-color: #182101;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    
+    & .labeled-plate-label {
+        margin: auto;
+    }
+}

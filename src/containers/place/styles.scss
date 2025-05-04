@@ -1,0 +1,8 @@
+.places-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: auto;
+    flex-wrap: wrap;
+    gap: 10px;
+}

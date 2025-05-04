@@ -1,0 +1,13 @@
+.tag.tag-wrapper {
+    background-color:  #a5d438;
+    width: auto;
+    padding: 5px 15px;
+    height: 15px;
+    display: flex;
+    justify-items: center;
+    border-radius: 50px;
+    color: white;
+    & .tag-label{
+        margin: auto;
+    }
+}
